@@ -1,0 +1,6 @@
+@case_facade_HostAddress = http://localhost:5004
+
+GET {{case_facade_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,35 @@
+projeto-facade-csharp/
+│   Program.cs
+│   appsettings.json
+│   README.md
+│
+├── Controllers/
+│      PurchaseController.cs
+│
+├── Facade/
+│      IPurchaseFacade.cs
+│      PurchaseFacade.cs
+│
+├── Services/
+│      InventoryService.cs
+│      PaymentService.cs
+│      ShippingService.cs
+│      OrderService.cs
+│      NotificationService.cs
+│
+├── Models/
+│      PurchaseRequest.cs
+│      PurchaseResult.cs
+│
+├── Exceptions/
+│      BusinessException.cs
+│
+├── Logging/
+│      AppLogger.cs (opcional)
+│
+├── Utils/
+│      GuidGenerator.cs (opcional)
+│
+└── Tests/                               (opcional, mas recomendado)
+       FacadeTests.cs
+       ServicesTests.cs
